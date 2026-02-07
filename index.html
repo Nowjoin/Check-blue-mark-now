@@ -2,35 +2,56 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Continue | Meta Verified</title>
+<title>Meta Verified</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg,#f0f4ff,#ffffff);
+  background: linear-gradient(135deg,#1877f2,#0f5bd8);
 }
 
 .card{
-  max-width:420px;
-  margin:50px auto;
+  max-width:430px;
+  margin:40px auto;
   background:#ffffff;
   border-radius:18px;
-  padding:28px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+  padding:26px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.2);
   text-align:center;
 }
 
 .logo{
-  font-size:42px;
+  width:100px;
+  height:100px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  background:#e7f3ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:44px;
   color:#1877f2;
-  margin-bottom:12px;
 }
 
 h1{
   font-size:22px;
-  margin-bottom:10px;
+  margin-bottom:8px;
+  color:#1c1e21;
+}
+
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:#e7f3ff;
+  color:#1877f2;
+  padding:7px 14px;
+  border-radius:25px;
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:14px;
 }
 
 p{
@@ -39,9 +60,21 @@ p{
   line-height:1.6;
 }
 
+ul{
+  text-align:left;
+  padding:0;
+  margin:20px 0;
+  list-style:none;
+  font-size:14px;
+}
+
+ul li{
+  margin-bottom:9px;
+}
+
 .btn{
   display:block;
-  margin-top:22px;
+  width:100%;
   padding:14px;
   background:#1877f2;
   color:#fff;
@@ -49,6 +82,13 @@ p{
   border-radius:12px;
   font-size:16px;
   font-weight:bold;
+  margin-top:18px;
+}
+
+.footer{
+  font-size:12px;
+  color:#888;
+  margin-top:18px;
 }
 </style>
 </head>
@@ -57,16 +97,31 @@ p{
 
 <div class="card">
 
+  <!-- BLUE TICK LOGO -->
   <div class="logo">✔️</div>
 
-  <h1>Continue Setup</h1>
+  <h1>Meta Verified Subscription</h1>
+
+  <div class="badge">Verified Badge</div>
 
   <p>
-    Please continue to the next step to learn more about
-    Meta Verified subscription features and eligibility.
+    Meta Verified is a subscription service designed to help creators
+    and businesses build authenticity and trust.
   </p>
 
-  <a href="#" class="btn">Next</a>
+  <ul>
+    <li>✔️ Verified badge for profile</li>
+    <li>✔️ Enhanced account protection</li>
+    <li>✔️ Dedicated support access</li>
+    <li>✔️ Improved credibility</li>
+  </ul>
+
+  <!-- NEXT HTML -->
+  <a href="next.html" class="btn">Apply</a>
+
+  <div class="footer">
+    Informational page only
+  </div>
 
 </div>
 
