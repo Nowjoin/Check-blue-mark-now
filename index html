@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Meta Verified</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1877f2, #0a58ca);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background: #fff;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #1877f2;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.btn {
+    display: block;
+    margin-top: 25px;
+    background: #1877f2;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn:hover {
+    background: #145dbf;
+}
+</style>
+</head>
+
+<body>
+<div class="box">
+
+    <!-- Meta Logo -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo.svg" class="logo" alt="Meta Logo">
+
+    <h1>Meta Verified</h1>
+    <p>
+        Apply for Meta Verified and get a verified badge to help
+        build trust and authenticity for your account.
+    </p>
+
+    <a href="continue.html" class="btn">Continue</a>
+
+</div>
+</body>
+</html>
